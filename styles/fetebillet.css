@@ -1,0 +1,118 @@
+/***********************************/
+/******** Insertion polices ********/
+/***********************************/
+body{
+    color:#241fa6;
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url("../font/font.otf") format("otf");
+}
+
+/*************************/
+/******** Classes ********/
+/*************************/
+
+.billet{
+    
+    width: 300px;
+    height:700px;
+    margin: 5px 7% 5px 7%;
+    box-shadow: 15px 10px 15px black;
+    border-radius: 20px;
+    background-color: #241fa6; 
+}
+.jour{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.artiste{
+    height: 516px;
+    color: #241fa6;
+}
+.artiste2{
+    margin-left: 17%;
+    margin-right: auto;
+    width: 80%;
+    height: 570px;
+}
+.affiche{
+    margin:0 0 0 0%;
+}
+.text2{
+    margin: 30px 10px 30px 10px;
+    font-size:50px;
+    line-height: 35px;
+    font-family: 'Odibee Sans', cursive;
+    width: 500px;
+    text-align: center;
+    color: #241fa6;
+}
+.text{
+    margin: 15px 10px 10px 10px;
+    color: white;
+    font-size:35px;
+    line-height: 35px;
+    font-family: 'Odibee Sans', cursive;
+}
+.espace{
+    height: 50px;
+}
+.billet:hover{
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.trait{
+    height: 3px;
+    background-color:#241fa6; 
+    width: 100%;
+}
+
+.barre{
+    height: 300px;
+    width : 500px;
+    margin: 8% 0 0 12%;
+}
+.flex1{
+    display : flex;   
+    
+}
+.listeartiste{
+    width: 99.6%;
+    height : 100px;
+    margin: 15px 0px 15px 0px;
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+}
+h2{
+    color: black;
+    margin: 10% 30% 0 30%; 
+    width :100%;
+}
+.n1{
+    color: #B21DF2;
+}
+.n2{
+    color: #1E2940;
+}
+.n3{
+color:white;
+}
+.prix{
+    font-family: 'Odibee Sans', cursive;
+    border-radius: 15px;
+    
+    margin : 0% 37% 0 37%; 
+    font-size: 50px;
+}
+h2{
+    font-family: 'Odibee Sans', cursive;
+    font-size:35px;
+    color: #241fa6;
+}
